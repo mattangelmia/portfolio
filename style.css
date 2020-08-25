@@ -34,10 +34,11 @@ background: rgb(229, 240, 255);
 
 /* building nav-bar using flexbox for the entire nav-wrapper class */
 .nav-wrapper{
-    
+    background-image: linear-gradient(rgb(150, 150, 150),rgb(70, 143, 185) );
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    line
 }
 
 /* using flexbox for upper-left class positioning */
@@ -51,11 +52,14 @@ background: rgb(229, 240, 255);
 .upper-right {
     border-style: solid;
     border-radius: 35px;
+
    padding:20px;
 }
 
 .upper-right :hover{
     color: whitesmoke;
+    text-decoration: underline;
+    transition: 1s;
     
     background-color: black
 
@@ -167,7 +171,7 @@ h1{
 
 .link-text:hover{
     
-    
+    color: deepskyblue;
     
     
     
@@ -192,6 +196,76 @@ h1{
     position: relative;
     
 }
+
+
+
+.btn-2{
+color:red
+
+
+
+
+}
+
+
+.btn-a{
+    text-decoration: none;
+    color: rgb(102, 96, 96);
+}
+
+.btn-a:hover{
+  color: black;
+}
+
+
+.btn-1 {
+margin: 40px;
+text-decoration: none;
+font-size: 30px;
+font-family: 'Quicksand', sans-serif;
+transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+width:50%;
+height:100px;
+      }
+
+
+    .btn-1:hover{
+    color: azure;
+    border: black;
+    text-decoration: underline;
+    font-size: 45;
+    font-style: normal;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 40px 40px rgb(96, 195, 235) inset;
+      
+}
+
+.btn-contact-page{
+    display: flex;
+
+}
+
+.contact-header{
+    font-size: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio-img-background{
     color: transparent;
@@ -416,7 +490,12 @@ line-height:50px ;
     
 }
 
-
+.brand{
+    background: honeydew;
+    padding: 20px;
+    border-radius: 100%;
+    
+}
 
 
 
@@ -503,6 +582,55 @@ color: rgb(3, 226, 255);
 
 
 
+.buttons-class{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+text-align: center;
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 10px;
+padding-left: 0;
+margin-left: -5px;
+list-style: none;
+}
+
+.btn-contact{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: 700;
+list-style: none;
+box-sizing: border-box;
+display: inline-block;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.btn-container{
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px){
 .portfolio-items-wrapper{
         display: flex;   
@@ -512,7 +640,9 @@ color: rgb(3, 226, 255);
 
 
 
-    
+
+
+
 
     
 
@@ -520,20 +650,29 @@ color: rgb(3, 226, 255);
 .link-text{
     color: rgb(3, 226, 255);
     align-items: center;
+    text-align: center;
 }
    
  
 
 .nav-wrapper{
     display: flex;
+    font-size: 10px;
     flex-direction: column;
+    
 }
 
 .upper-right{
+    font-size: 15px;
 display: flex;
 justify-content: space-evenly;
 margin-top: 20px;
 
+
+}
+.upper-left{
+    font-size: 100px;
+    
 }
 
  }
