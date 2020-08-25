@@ -497,6 +497,17 @@ color: rgb(3, 226, 255);
 
 
 
+@media (max-width: 500px){
+.portfolio-items-wrapper{
+        display: flex;   
+        flex-direction: column;
+}
+
+.link-text:hover{
+    font-size: 15px;
+}
+
+}
 
 
 
@@ -523,17 +534,12 @@ color: rgb(3, 226, 255);
 
 
 
-/* portfolio styles */
 
 
 
-/* .logo-wrap img{ */
-    /* width: 500px; */
-/* } */
 
 
 
-          
 
 
 
