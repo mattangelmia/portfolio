@@ -20,6 +20,7 @@ background: rgb(229, 240, 255);
 
 
 
+
 /* using grid to format the layout of the page */
 
 .container{
@@ -50,7 +51,7 @@ background: rgb(229, 240, 255);
 }
 
 .upper-right {
-    border-style: solid;
+    
     border-radius: 35px;
 
    padding:20px;
@@ -59,7 +60,8 @@ background: rgb(229, 240, 255);
 .upper-right :hover{
     color: whitesmoke;
     text-decoration: underline;
-    transition: 1s;
+    
+    transition: 1s ease-in-out ;
     
     background-color: black
 
@@ -199,13 +201,9 @@ h1{
 
 
 
-.btn-2{
-color:red
 
 
 
-
-}
 
 
 .btn-a{
@@ -219,6 +217,7 @@ color:red
 
 
 .btn-1 {
+  
 margin: 40px;
 text-decoration: none;
 font-size: 30px;
@@ -631,6 +630,10 @@ flex-direction: column;
 
 
 
+
+
+
+
 @media (max-width: 500px){
 .portfolio-items-wrapper{
         display: flex;   
@@ -640,6 +643,14 @@ flex-direction: column;
 
 
 
+
+
+
+.btn-contact-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
@@ -657,7 +668,7 @@ flex-direction: column;
 
 .nav-wrapper{
     display: flex;
-    font-size: 10px;
+    justify-content: space-around;
     flex-direction: column;
     
 }
@@ -671,8 +682,15 @@ margin-top: 20px;
 
 }
 .upper-left{
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
     font-size: 100px;
     
+}
+
+.contact-header{
+    font-size: 40px;
 }
 
  }
