@@ -59,3 +59,33 @@ let message = document.querySelector("#message")
 // 
 // 
 // }
+
+// // // function inspo(){axios.get('https://ironrest.herokuapp.com/mia-aug2020-webdevs')
+        // .then(res =>{
+          // console.log(res.data)
+        // })}
+// 
+// 
+// 
+// inspo()
+
+
+
+let getBtn= document.querySelector('.get')
+
+let postBtn= document.querySelector('.post')
+
+
+const getData = ()=>{
+  axios.get('https://ironrest.herokuapp.com/mia-aug2020-webdevs').then(response =>{
+     console.log(response); 
+    let feedback= document.querySelector('.feedback-text')
+    feedback.innerHTML=response.data[0].website
+    document.querySelector('h1').innerHTML=response.data[0].first_name
+    document.querySelector('h3')
+    document.querySelector('a')
+  })
+}
+
+
+// getBtn.addEventListener('click',getData)

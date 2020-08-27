@@ -10,6 +10,152 @@ body {
   height: 200px;
   background: rgb(225, 235, 238);
 }
+h3{
+  display: flex;
+  justify-content: space-evenly;
+}
+.randoms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.port-links{
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.port-links:hover{
+  text-decoration: underline;
+}
+
+.get{
+  margin: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  width: 50%;
+  height: 100px;
+}
+
+.get:hover:{
+  color: azure;
+  border: black;
+  text-decoration: underline;
+  font-size: 45;
+  font-style: normal;
+  font-family: "Quicksand", sans-serif;
+  box-shadow: 0 0 40px 40px rgb(96, 195, 235) inset;
+}
+
+
+.app{
+
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.beats-body{
+  font-family: "Quicksand", sans-serif;
+}
+
+.pads{
+background-color:lightskyblue;
+width: 100%;
+display: flex;
+}
+
+.pad1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.pad2:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.pad3:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.pad4:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+
+.pad4:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.pad5:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+
+.pad6:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.pads > div{
+  height: 100px;
+  width: 100px;
+  flex:1;
+
+}
+
+.pad1{
+  background: maroon;
+}
+
+.pad2{
+  background: seagreen;
+}
+
+.pad3{
+  background: slategrey;
+}
+
+
+.pad4{
+  background: violet;
+}
+
+.pad5{
+    background: yellow;
+}
+
+.pad6{
+background: lightseagreen;
+
+}
+
+
+.tap{
+  font-family: "Quicksand", sans-serif;
+
+}
+
+.hear{
+  
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
@@ -209,12 +355,12 @@ h1 {
 
 
 
-.portfolio-item-wrapper {
+/* .portfolio-item-wrapper { */
   /* padding-bottom: 50px; */
   /* padding-right: 50px; */
   /* padding-left: 50px; */
   /* position: relative; */
-}
+/* } */
 
 .btn-a {
   text-decoration: none;
@@ -327,19 +473,18 @@ h1 {
   align-items: center;
 }
 
-.portfolio-item-wrapper {
-}
+/* .portfolio-item-wrapper { */
+/* } */
 
 
 .feedback-text{
     font-size: 25px;
 }
 
-.buttonx:hover{
-    background: $light
-    color: $bg_2
 
-}
+
+
+
 	
 	
 
@@ -580,7 +725,7 @@ h1 {
 .mattpic{
     display:flex ;
     justify-content: space-between;
-    
+    margin-left: 750px;
     background-repeat: none;
     width:15%;
     border-radius: 45%;
@@ -634,6 +779,13 @@ h1 {
     flex-direction: column;
   }
 
+  .link-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+  }
+
   .link-text {
     color: rgb(3, 226, 255);
     align-items: center;
@@ -641,21 +793,27 @@ h1 {
   }
 
   .nav-wrapper {
+    font-size: 15px;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-around;
+    
+    
   }
 
   .upper-right {
-    font-size: 15px;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
+    align-items: center;
+    font-size: 15px;
+    width: 40%;
+     margin-top: 20px;
   }
+  
   .upper-left {
     margin-left: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 100px;
   }
 
