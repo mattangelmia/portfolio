@@ -700,7 +700,7 @@ h1 {
   transition: 0.8s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px), (max-height:800px) {
   .wrap {
     margin-left: 200px;
   }
