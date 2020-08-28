@@ -10,7 +10,7 @@ body {
   height: 200px;
   background: rgb(225, 235, 238);
   max-width: 100%;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 h3 {
   font-size: 15px;
