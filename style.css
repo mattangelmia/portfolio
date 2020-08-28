@@ -1,6 +1,7 @@
 * {
-  animation-name: fade-in;
-  animation-duration: 2.5s;
+  /* animation-name: fade-in;
+  animation-duration: 2.5s; */
+  animation: fade-in 2.5s fowards;
 }
 /* giving body a margin of 0px */
 body {
@@ -19,23 +20,13 @@ h3 {
   align-items: center;
 }
 
-
- 
-
-
-
-
-
-
-
-.random{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+.random {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .port-links {
-  
   font-size: 30px;
   color: black;
   text-decoration: none;
@@ -49,7 +40,6 @@ align-items: center;
 }
 
 .get {
-  
   margin: 40px;
   text-decoration: none;
   font-size: 30px;
@@ -60,7 +50,7 @@ align-items: center;
   align-items: center;
 }
 
-.get:hover{
+.get:hover {
   color: azure;
   border: black;
   text-decoration: underline;
@@ -257,7 +247,7 @@ h2 {
 }
 
 .upper-right {
-align-items: center;
+  align-items: center;
   border-radius: 35px;
 
   padding: 20px;
@@ -275,7 +265,6 @@ align-items: center;
 
 /* modifying the divs inside the upper left class */
 .nav-wrapper > .upper-left > div {
-  
   margin-right: 20px;
   font-size: 20px;
   text-transform: uppercase;
@@ -444,12 +433,10 @@ h1 {
   width: 50%;
 }
 
-
-
 .portfolio-text {
   text-decoration: none;
   color: black;
-  animation:typing 5s steps(11, end), caret .5s step-end infinite;
+  animation: typing 5s steps(11, end), caret 0.5s step-end infinite;
 }
 
 .btn-touch {
@@ -478,8 +465,6 @@ h1 {
 
 /* .portfolio-item-wrapper { */
 /* } */
-
-
 
 .feedback-text {
   font-size: 25px;
@@ -570,8 +555,9 @@ h1 {
   padding: 0 3rem;
   margin-top: 4rem;
   text-align: center;
-  animation-name: fade-in;
-  animation-duration: 5s;
+  /* / animation-name: fade-in;
+  animation-duration: 5s; */
+  /*nimation: fade-in 5s fowards;*/
 }
 
 .aboutme-image {
@@ -581,7 +567,7 @@ h1 {
 
 .brand {
   padding-left: 300px;
-  
+
   background: honeydew;
   padding: 20px;
   border-radius: 100%;
@@ -703,14 +689,13 @@ h1 {
   color: darkblue;
 }
 
-.picture{
-  
+.picture {
   max-width: 100%;
-        max-height: 100%;
-        display: block;
+  max-height: 100%;
+  display: block;
 }
 
-.feed{
+.feed {
   text-align: center;
   font-size: 30px;
 }
@@ -720,52 +705,37 @@ h1 {
   transition: 0.8s;
 }
 
-@media (max-width: 500px), (max-height:800px) {
-
-.port-links{
-  padding-bottom: 80px;
-}
-
-
-.brand{
-  margin-left:30px ;
-}
-
-
-.row{
-
-
-margin-right: 50px;
-
-
-}
-
-
-.portfolio-text{
-  font-size: 10px;
-}
-
-  .press{
-    font-size: 20px;
-    text-align: center;
-
-
-
-
+@media (max-width: 500px), (max-height: 800px) {
+  .port-links {
+    padding-bottom: 80px;
   }
 
-.last{
-  font-size: 30px;
-}
+  .brand {
+    margin-left: 30px;
+  }
 
+  .row {
+    margin-right: 50px;
+  }
 
-h1{
-  font-size: 45px;
-}
-  .hear{
+  .portfolio-text {
+    font-size: 10px;
+  }
+
+  .press {
     font-size: 20px;
+    text-align: center;
+  }
 
+  .last {
+    font-size: 30px;
+  }
 
+  h1 {
+    font-size: 45px;
+  }
+  .hear {
+    font-size: 20px;
   }
   .link-wrap a {
     color: lightgray;
@@ -773,43 +743,35 @@ h1{
     transition: color 0.5s;
     padding: 5px;
   }
-  
-  
-  
-  
+
   .nav-wrapper > .upper-left > div {
-  
     margin-right: 2px;
     font-size: 12px;
     text-transform: uppercase;
-    
   }
-  
-  
-  
+
   .wrap {
     margin-left: 200px;
   }
-.feed{
-  text-align: center;
-  margin-left: 130px;
-}
+  .feed {
+    text-align: center;
+    margin-left: 130px;
+  }
   h3 {
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-right: 150px;
     align-items: center;
-    
+
     font-size: 30px;
   }
-  .feedback{
+  .feedback {
     display: flex;
     justify-content: space-evenly;
     margin-right: 40px;
   }
 
-  
   .skillset {
     margin-left: 180px;
     display: flex;
@@ -867,7 +829,7 @@ h1{
     display: flex;
     padding: 0px;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
   }
 
   .upper-right {
