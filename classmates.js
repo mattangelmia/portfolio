@@ -9,7 +9,7 @@ function getData(){
        let random= Math.floor(Math.random()* response.data.length)
        console.log(random)
       document.querySelector('h1').innerHTML=response.data[random].first_name
-      document.querySelector('h3').innerHTML=response.data[random].last_name
+      document.querySelector('.last').innerHTML=response.data[random].last_name
       document.querySelector('.port-links').href=response.data[random].website
       
     })
