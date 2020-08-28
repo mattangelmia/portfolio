@@ -9,6 +9,8 @@ body {
   padding: 0px;
   height: 200px;
   background: rgb(225, 235, 238);
+  max-width: 100%;
+  overflow-y: hidden;
 }
 h3 {
   font-size: 15px;
@@ -273,6 +275,7 @@ align-items: center;
 
 /* modifying the divs inside the upper left class */
 .nav-wrapper > .upper-left > div {
+  
   margin-right: 20px;
   font-size: 20px;
   text-transform: uppercase;
@@ -715,6 +718,27 @@ h1 {
 }
 
 @media (max-width: 500px), (max-height:800px) {
+  
+  .link-wrap a {
+    color: lightgray;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding: 5px;
+  }
+  
+  
+  
+  
+  .nav-wrapper > .upper-left > div {
+  
+    margin-right: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+  }
+  
+  
+  
   .wrap {
     margin-left: 200px;
   }
