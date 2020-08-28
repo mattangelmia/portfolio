@@ -18,6 +18,14 @@ h3 {
 }
 
 
+ 
+
+
+
+
+
+
+
 .random{
 display: flex;
 justify-content: center;
@@ -50,7 +58,7 @@ align-items: center;
   align-items: center;
 }
 
-.get:hover: {
+.get:hover{
   color: azure;
   border: black;
   text-decoration: underline;
@@ -247,6 +255,7 @@ h2 {
 }
 
 .upper-right {
+align-items: center;
   border-radius: 35px;
 
   padding: 20px;
@@ -432,9 +441,12 @@ h1 {
   width: 50%;
 }
 
+
+
 .portfolio-text {
   text-decoration: none;
   color: black;
+  animation:typing 5s steps(11, end), caret .5s step-end infinite;
 }
 
 .btn-touch {
@@ -565,6 +577,8 @@ h1 {
 }
 
 .brand {
+  padding-left: 300px;
+  
   background: honeydew;
   padding: 20px;
   border-radius: 100%;
@@ -718,11 +732,7 @@ h1 {
     margin-right: 40px;
   }
 
-  .mattpic {
-    align-items: center;
-    margin-right: 399px;
-  }
-
+  
   .skillset {
     margin-left: 30px;
     display: flex;
@@ -778,7 +788,7 @@ h1 {
     display: flex;
     padding: 0px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between
   }
 
   .upper-right {
