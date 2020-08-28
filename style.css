@@ -718,7 +718,27 @@ h1 {
 }
 
 @media (max-width: 500px), (max-height:800px) {
-  
+
+  .press{
+    font-size: 20px;
+    text-align: center;
+
+
+
+
+  }
+
+
+
+
+h1{
+  font-size: 45px;
+}
+  .hear{
+    font-size: 20px;
+
+
+  }
   .link-wrap a {
     color: lightgray;
     text-decoration: none;
@@ -744,11 +764,13 @@ h1 {
   }
 
   h3 {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    margin-right: 150px;
     align-items: center;
     margin-left: 150px;
-    font-size: 10px;
+    font-size: 30px;
   }
   .feedback{
     display: flex;
