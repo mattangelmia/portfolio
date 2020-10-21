@@ -201,6 +201,18 @@ h2 {
   justify-content: center;
 }
 
+h4{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+h5{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .paragraph-skills {
   align-items: center;
   display: flex;
